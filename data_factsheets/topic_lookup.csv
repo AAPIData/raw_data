@@ -12,7 +12,7 @@ state_4,state pop 4,Top States
 state_5,state pop 5,Top States
 pct_lesshs,Less than a high school degree,Education
 pct_hsged,High school degree or equivalent,Education
-pct_bahigher,Bachelor’s degree or higher,Education
+pct_bahigher,Bachelor's degree or higher,Education
 pct_pov,Share in poverty overall,Income and Poverty
 pct_pov_youth,Share of children in poverty,Income and Poverty
 pct_pov_senior,Share of seniors in poverty,Income and Poverty
