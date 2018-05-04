@@ -1,8 +1,10 @@
 var_name,label,topic_group
-pop,"US residents, 2016 (Alone or in combo)",Total Population
-pop_v2,"US residents, 2016 (Alone)",Total Population
-pct_pop_growth_2010,Population growth 2010-2016,Population Growth
-pct_pop_growth_2000,Population growth 2000-2016,Population Growth
+pop_combo,"US residents, 2016 (Alone or in combo)",Total Population
+pop_alone,"US residents, 2016 (Alone)",Total Population
+pct_pop_growth_2010_combo,Population growth 2010-2016 (Alone or in combo),Population Growth
+pct_pop_growth_2000_combo,Population growth 2000-2016 (Alone or in combo),Population Growth
+pct_pop_growth_2010_alone,Population growth 2010-2016 (Alone),Population Growth
+pct_pop_growth_2000_alone,Population growth 2000-2016 (Alone),Population Growth
 top_states,Top States of Residence,Top States
 tot_state_pop,Total Pop in Top 5 States,Top States
 state_1,state pop 1,Top States
@@ -21,7 +23,7 @@ vote_2016,Vote in 2016 (percent Clinton/Trump),Political Participation
 partyID,Party identification (percent Democrat/Republican/neither),Political Participation
 pct_other_lang,Speak language other than English at home,Language
 pct_lep,"Limited English proficiency, or LEP",Language
-common_lang,Most common languages,Language
+common_lang,Most common languages among those who speak language other than English at home,Language
 pct_foreign,Share of residents who are immigrant or foreign born,Nativity
 pct_citizen,Share of residents who are citizens,Nativity
 pct_cvap,Share of residents who are adult citizens,Nativity
