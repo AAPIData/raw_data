@@ -1,6 +1,6 @@
 var_name,label,topic_group
-pop_combo,"US residents, 2016 (Alone or in combo)",Total Population
-pop_alone,"US residents, 2016 (Alone)",Total Population
+pop,"US residents, 2016 (Alone or in combo)",Total Population
+popv2,"US residents, 2016 (Alone)",Total Population
 pct_pop_growth_2010_combo,Population growth 2010-2016 (Alone or in combo),Population Growth
 pct_pop_growth_2000_combo,Population growth 2000-2016 (Alone or in combo),Population Growth
 pct_pop_growth_2010_alone,Population growth 2010-2016 (Alone),Population Growth
