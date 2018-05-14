@@ -31,3 +31,4 @@ pct_foreign_cit,Share of foreign born/immigrants who are citizens,Nativity
 pct_foreign_2000,Share of foreign born/immigrants who arrived 2000 or later,Nativity
 pct_no_insurance,Share without health insurance,Health Insurance
 pct_pri_insurance,Share with private health insurance,Health Insurance
+pct_home,Share of home owners,Home Ownership
