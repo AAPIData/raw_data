@@ -32,3 +32,6 @@ pct_foreign_2000,Share of foreign born/immigrants who arrived 2000 or later,Nati
 pct_no_insurance,Share without health insurance,Health Insurance
 pct_pri_insurance,Share with private health insurance,Health Insurance
 pct_home,Share of home owners,Homeownership
+pct_agep1,Share of age group under 18,
+pct_agep2,Share of age group between 18 to 64,
+pct_agep3,Share of age group over 64,
