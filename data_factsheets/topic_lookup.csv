@@ -5,6 +5,9 @@ pct_pop_growth_2010_combo,Population growth 2010-2016 (Alone or in combo),Popula
 pct_pop_growth_2000_combo,Population growth 2000-2016 (Alone or in combo),Population Growth
 pct_pop_growth_2010_alone,Population growth 2010-2016 (Alone),Population Growth
 pct_pop_growth_2000_alone,Population growth 2000-2016 (Alone),Population Growth
+pct_agep1,Share of age group under 18,Age Distribution
+pct_agep2,Share of age group between 18 to 64,Age Distribution
+pct_agep3,Share of age group over 64,Age Distribution
 top_states,Top States of Residence,Top States
 tot_state_pop,Total Pop in Top 5 States,Top States
 state_1,state pop 1,Top States
@@ -32,6 +35,3 @@ pct_foreign_2000,Share of foreign born/immigrants who arrived 2000 or later,Nati
 pct_no_insurance,Share without health insurance,Health Insurance
 pct_pri_insurance,Share with private health insurance,Health Insurance
 pct_home,Share of home owners,Homeownership
-pct_agep1,Share of age group under 18,Age Distribution
-pct_agep2,Share of age group between 18 to 64,Age Distribution
-pct_agep3,Share of age group over 64,Age Distribution
