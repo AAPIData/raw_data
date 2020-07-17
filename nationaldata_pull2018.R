@@ -1,7 +1,7 @@
 library(tidyverse)
 library(tidycensus)
 
-label <- load_variables(year = 2018, dataset = "acs1") %>% 
+label <- load_variables(year = 2018, dataset = "acs1", cache = TRUE) %>% 
   rename(variable = name) %>% 
   select(-concept)
 
@@ -118,12 +118,13 @@ dta_pop <- dta_pop %>%
 #pop growth------------
 dta_hist <- read_csv("nationaldata_2018/pop_2010_2000.csv")
 dta_growth <- dta_pop2 %>% 
+  left_join(dta_pop) %>% 
   left_join(dta_hist) %>% 
   mutate(pct_pop_growth_2010_alone = (pop2 - alone_2010)/alone_2010,
          pct_pop_growth_2000_alone = (pop2 - alone_2000)/alone_2000,
-         pct_pop_growth_2010_combo = (pop2 - combo_2010)/combo_2010,
-         pct_pop_growth_2000_combo = (pop2 - combo_2000)/combo_2000) %>% 
-  select(-pop2, -alone_2010, -alone_2000,
+         pct_pop_growth_2010_combo = (pop - combo_2010)/combo_2010,
+         pct_pop_growth_2000_combo = (pop - combo_2000)/combo_2000) %>% 
+  select(-pop, -pop2, -alone_2010, -alone_2000,
          -combo_2010, -combo_2000)
 
 dta_growth$group <- factor(dta_growth$group, levels = c("US Total", "Asian American","Pacific Islander","Asian Indian",
