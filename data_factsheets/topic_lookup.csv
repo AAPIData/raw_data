@@ -1,10 +1,10 @@
 var_name,label,topic_group
 pop,"US residents, 2016 (Alone or in combo)",Total Population
 pop2,"US residents, 2016 (Alone)",Total Population
-pct_pop_growth_2010_combo,Population growth 2010-2016 (Alone or in combo),Population Growth
-pct_pop_growth_2000_combo,Population growth 2000-2016 (Alone or in combo),Population Growth
-pct_pop_growth_2010_alone,Population growth 2010-2016 (Alone),Population Growth
-pct_pop_growth_2000_alone,Population growth 2000-2016 (Alone),Population Growth
+pct_pop_growth_2010_combo,Population growth 2010-2018 (Alone or in combo),Population Growth
+pct_pop_growth_2000_combo,Population growth 2000-2018 (Alone or in combo),Population Growth
+pct_pop_growth_2010_alone,Population growth 2010-2018 (Alone),Population Growth
+pct_pop_growth_2000_alone,Population growth 2000-2018 (Alone),Population Growth
 pct_agep1,Share of age group 0-17,Age Distribution
 pct_agep2,Share of age group 18-49,Age Distribution
 pct_agep3,Share of age group 50-64,Age Distribution
